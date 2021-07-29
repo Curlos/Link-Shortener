@@ -23,6 +23,7 @@ const App = () => {
       <input type="url" className="originalLink" onChange={handleChange}/>
       <div className="shortLink">New Link: {shortUrl}</div>
       <button onClick={getShortUrlFromAPI}>Shorten URL</button>
+      
     </div>
   );
 }
